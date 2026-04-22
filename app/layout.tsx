@@ -1,5 +1,7 @@
 import '@/app/ui/global.css'
+import { Metadata } from 'next';
 import localFont from "next/font/local";
+import { title } from 'process';
 
 const myFont = localFont({
   src: [
@@ -10,6 +12,10 @@ const myFont = localFont({
   variable: "--font-myfont",
   display: "swap",
 });
+export const metadata:Metadata={
+  title:"Next version of Mobilebank app",
+  description: "A simple mobile banking app built with Next.js",
+}
 
 export default function RootLayout({
   children,
