@@ -60,8 +60,8 @@ export default function Header() {
             ),
         },
         {
-            label: "Blog",
-            href: "/blog",
+            label: "Blogs",
+            href: "/blogs",
             icon: (
                 <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
                     <path d="M4 4h16v3H4z" /><path d="M4 11h10" strokeLinecap="round" /><path d="M4 15h7" strokeLinecap="round" />
