@@ -1,4 +1,4 @@
-import '@/app/ui/global.css'
+import './ui/global.css'
 import { Metadata } from 'next';
 import localFont from "next/font/local";
 import { title } from 'process';

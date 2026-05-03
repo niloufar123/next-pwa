@@ -2,7 +2,7 @@ async function getBlogs() {
 
 
  console.log("⏳ starting delay...");         // log 1
-    // await new Promise(r => setTimeout(r, 5000));
+    await new Promise(r => setTimeout(r, 2000));
     console.log("✅ delay done, fetching...");   // log 2
 
 
