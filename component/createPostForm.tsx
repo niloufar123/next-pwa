@@ -19,7 +19,7 @@ async function createPostWithStatus(_prevState:typeof initialState,formData:Form
 
 export default function CreatePostForm(){
     const [state, action,isPending]=useActionState(createPostWithStatus,initialState);
-    console.log( "Is pending:", isPending);
+    
     return (
         <form action={action} className="space-y-4">
             

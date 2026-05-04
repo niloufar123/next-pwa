@@ -1,6 +1,6 @@
 "use server"
 
-import { revalidatePath } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
 import { redirect } from "next/navigation";
 
 const posts: { id: number, title: string, content: string }[] = [];
@@ -19,10 +19,13 @@ export async function createPost(formData: FormData) {
         method: "POST",
         body: JSON.stringify({ title, body }),
         headers: { "Content-Type": "application/json" },
+        // cache:"no-cache"
+        next:{
+            revalidate:300,
+            tags:["posts"]}
     })
-
-    revalidatePath("/blogs");
-
+    revalidatePath("/posts");// --> revalidate a specific path
+    revalidateTag("posts");// --> revalidate all fetches with this tag
     redirect("/blogs");
 }
 
