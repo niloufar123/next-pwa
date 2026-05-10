@@ -1,4 +1,4 @@
-import { signOut } from "@/auth";
+import { signOut } from "@/app/(auth)/auth";
 
 export default function SignOutButton() {
   return (

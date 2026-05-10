@@ -1,6 +1,6 @@
 "use client";
 
-import { createPost } from "@/app/actions/posts";
+import { createPost } from "@/app/blogs/actions/posts";
 import { useActionState } from "react";
 
 

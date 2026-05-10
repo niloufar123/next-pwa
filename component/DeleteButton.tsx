@@ -1,4 +1,4 @@
-import { deletePost } from "@/app/actions/posts";
+import { deletePost } from "@/app/blogs/actions/posts";
 import {  useTransition } from "react";
 
 export async function DeleteButton({id}:{id:number}){

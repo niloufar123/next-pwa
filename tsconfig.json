@@ -30,6 +30,6 @@
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.ts",
     "scripts/seed.js"
-, "app/(setting)/about/page.jsx"  ],
+, "app/(setting)/about/page.jsx", "component/layouts/mobile-layout"  ],
   "exclude": ["node_modules"]
 }

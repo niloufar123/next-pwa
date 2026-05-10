@@ -1,4 +1,4 @@
-import {signIn} from "@/auth";
+import {signIn} from "@/app/(auth)/auth";
 import { Sign } from "crypto";
 export default function GoogleSignInButton() {
     return (

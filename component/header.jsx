@@ -21,7 +21,7 @@ export default function Header() {
         //     ),
         //   },
         {
-            label: "Login",
+            label: "Mobile Banking",
             href: "/login",
             icon: (
                 <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
@@ -30,19 +30,19 @@ export default function Header() {
                 </svg>
             ),
         },
-        {
-            label: "Transfer",
-            href: "/transfer",
-            icon: (
-                <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
-                    <path d="M7 16V4m0 0L3 8m4-4l4 4" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M17 8v12m0 0l4-4m-4 4l-4-4" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-            ),
-        },
+        // {
+        //     label: "Transfer",
+        //     href: "/transfer",
+        //     icon: (
+        //         <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        //             <path d="M7 16V4m0 0L3 8m4-4l4 4" strokeLinecap="round" strokeLinejoin="round" />
+        //             <path d="M17 8v12m0 0l4-4m-4 4l-4-4" strokeLinecap="round" strokeLinejoin="round" />
+        //         </svg>
+        //     ),
+        // },
 
         {
-            label: "services",
+            label: "Internet Banking",
             href: "/services",
             icon: (
                 <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
@@ -51,7 +51,7 @@ export default function Header() {
             ),
         },
         {
-            label: "about us",
+            label: "About us",
             href: "/about",
             icon: (
                 <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
@@ -69,7 +69,7 @@ export default function Header() {
                     <path d="M17 14l2 2 4-4" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             ),
-            badge: "New",
+            // badge: "New",
         },
     ];
     return (

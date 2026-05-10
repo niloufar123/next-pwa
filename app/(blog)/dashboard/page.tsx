@@ -1,4 +1,4 @@
-import { auth } from "@/auth";
+import { auth } from "@/app/(auth)/auth";
 import SignOutButton from "@/component/SignOutButton";
 
 export default async function DashboardPage() {
